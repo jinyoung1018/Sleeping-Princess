@@ -11,7 +11,9 @@
 
 조작 방법: 게임을 시작하면 숨겨진 지도를 찾아서 공주의 위치를 파악할 수 있다. 공주의 위치가 파악되면 적절한 해독제로 공주를 구한다.
   
-소스코드 
+**소스코드** 
+
+```python
 from bangtal import *
 
 setGameOption(GameOption.INVENTORY_BUTTON,False)
